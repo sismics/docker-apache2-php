@@ -1,5 +1,5 @@
-# docker-apache2-php
-Dockerfile for Apache2+PHP Web Server
+## About
+Docker image for Apache2+PHP Web Server
 
 ## Usage
 
