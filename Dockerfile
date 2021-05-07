@@ -7,6 +7,6 @@ MAINTAINER Benjamin Gamard <b.gamard@sismics.com>
 
 # Install PHP, Apache 2 module and additional programs
 RUN apt-get update && \
-    apt-get install -y libapache2-mod-php7.4 php7.4-mysql php7.4-gd php7.4-intl php7.4-curl php-pear php-apcu && \
+    apt-get install -y libapache2-mod-php7.4 php7.4-mysql php7.4-gd php7.4-intl php7.4-curl php7.4-zip php-pear php-apcu && \
     rm -rf /var/lib/apt/lists/*
 
